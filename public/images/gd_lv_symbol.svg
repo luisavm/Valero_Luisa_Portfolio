@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="luisa_x5F_symbol" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 101.8 121.2" style="enable-background:new 0 0 101.8 121.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#l_x5F_letter_1_);}
+	.st1{fill:url(#v_x5F_letter_1_);}
+</style>
+<linearGradient id="l_x5F_letter_1_" gradientUnits="userSpaceOnUse" x1="13.1253" y1="106.0247" x2="99.9253" y2="19.2247" gradientTransform="matrix(1 0 0 -1 0 124)">
+	<stop  offset="0" style="stop-color:#401F2E"/>
+	<stop  offset="0.2276" style="stop-color:#612C41"/>
+	<stop  offset="0.5354" style="stop-color:#7D3852"/>
+	<stop  offset="1" style="stop-color:#9A3347"/>
+</linearGradient>
+<polygon id="l_x5F_letter" class="st0" points="59.1,0 64,9.8 17.1,9.8 58.1,107.2 52.4,121.2 0,0 "/>
+<linearGradient id="v_x5F_letter_1_" gradientUnits="userSpaceOnUse" x1="49.152" y1="74.35" x2="94.9326" y2="74.35" gradientTransform="matrix(1 0 0 -1 0 124)">
+	<stop  offset="0" style="stop-color:#401F2E"/>
+	<stop  offset="0" style="stop-color:#612C41"/>
+	<stop  offset="0" style="stop-color:#672F45"/>
+	<stop  offset="0" style="stop-color:#7D3852"/>
+	<stop  offset="0.2571" style="stop-color:#803851"/>
+	<stop  offset="0.4398" style="stop-color:#89364D"/>
+	<stop  offset="0.5992" style="stop-color:#993348"/>
+	<stop  offset="0.6099" style="stop-color:#9A3347"/>
+	<stop  offset="0.9915" style="stop-color:#A8374E"/>
+</linearGradient>
+<polygon id="v_x5F_letter" class="st1" points="89.4,0 56.3,85.7 61.5,99.3 101.8,0 "/>
+</svg>
