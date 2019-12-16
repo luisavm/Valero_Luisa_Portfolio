@@ -10,22 +10,22 @@
            </div> --}}
 
                   <ul id="burgerMenu">
-                    <li><a href="#">Home</a><li>
+                    <li><a href="/#designer">Home</a><li>
                      <li><a href="/about">About me</a><li>
-                     <li><a href="/portfolio">Work</a><li>
-                     <li><a href="#">Contact</a><li>
+                     <li><a href="#portfolio">Work</a><li>
+                     <li><a href="#conatct">Contact</a><li>
                   </ul>
             </div>
  </nav>
 </header>
 
-<section class="designer">
-    <section="myBrand">
-       <img ="luiImage" src="images/luisa1.jpg" alt="luisa valero image">
+<section id="designer">
+    <section id="myBrand">
+       <img id="luiImage" src="images/luisa1.jpg" alt="luisa valero image">
        <a class="logo" href="/"><img src="images/g_lv_symbol.svg" alt="logo"/></a>
     </section>
 
-    <div class="abtMe1">
+    <div class="whoIam">
         <p class="pro">GRAPHIC & UI DESIGNER</p>
         <h1>LUISA VALERO</h1>
         <h2 class="tagline">Intuitively visual. Eye for design.</h2>
@@ -54,7 +54,7 @@
     
 
 
-   <div class="showWorks">
+   <div class="showWorks" id="portfolio">
          <p class="mSubtitle">Fresh Off The Press</p>
          <h2 class="pHead">WORK</h2>
 
@@ -73,7 +73,7 @@
                            <p>{{Year}}</p>
                         </div>
                      </div>
-                     <a class="mArrow" href="/works/{{ID}}"><p class="viewMore">VIEW MORE ABOUT</p><img src="images/m_next_arrow.svg" alt="right arrow"/></a>
+                     <a class="mArrow" href="/{{ID}}"><p class="viewMore">VIEW MORE ABOUT</p><img src="images/m_next_arrow.svg" alt="right arrow"/></a>
                  </div>
                  <img src="images/{{homeImg}}">
                </section>
@@ -85,7 +85,7 @@
    <section id="reelVideo">          
          <p class="mSubtitle">Playground</p>
          <h2 class="pHead">DEMO REEL</h2>
-              <video controls>
+              <video autoplay muted loop controls>
                 <source src="video/valero_luisa_demo_reel.mp4" type="video/mp4">
                 <source src="video/valero_luisa_demo_reel.webm" type="video/webm">
                 <source src="video/valero_luisa_demo_reel.ogv" type="video/ogv">
@@ -129,11 +129,11 @@
 	                                  <label for="name">First and last name</label>
 	                                  <input class="inputField" type="text" required id="name" name="fullName">
 	                                  <label for="email">Email</label>
-                                     <input class="inputField" type="text" required id="email" name="email”>
-                                    <label for="phone">Phone</label>
-                                     <input type="tel" id="phone" name="phone” required>
+                                     <input class="inputField" type="text" required id="email" name="email">
+                                     <label for="phone">Phone</label>
+                                     <input type="tel" id="phone" name="phone" required>
 	                                  <label for="comments">Message</label>
-	                                  <textarea id="comments" name="comments" required </textarea>
+	                                  <textarea id="comments" name="comments" required ></textarea>
 	                                   <input type="submit" id="submit" value="SUBMIT">
                                   </form>
                        
@@ -141,17 +141,4 @@
 
    </section>
 
-	<footer id="mainFooter">
-       <a class="logo" href="/"><img src="images/g_lv_symbol.svg" alt="logo"/></a>
-
-             <div id="copyRight">
-                <p> &copy; 2015 - 2019 by Luisa Valero.</p>
-                <p>All Rights Reserved</p>
-             </div>
-
-             <div class="b-socialMedia">
-                  	<a href="https://www.instagram.com/luiva.m/"><img id="inst" src="images/g_instagram.svg" alt="instagram"></a>
-						   <a href="https://www.linkedin.com/in/luisa-valero/"><img id="ld" src="images/g_linkedin.svg" alt="linkedin"></a>
-             </div>
-      
-   </footer>
+	

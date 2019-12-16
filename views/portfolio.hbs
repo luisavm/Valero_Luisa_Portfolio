@@ -4,6 +4,8 @@
      
   <button id="button2"></button>
 
+      <p class="close">x</p>
+
            <div id="burgerCon2">
            {{!-- <div id="burger">
            <a class="menu" href="/"><img src="images/m_burger_menu.svg" alt="burger menu"/></a>
@@ -24,12 +26,12 @@
                  <a class="logo" href="/"><img src="images/gd_lv_symbol.svg" alt="logo"/></a>
              </section>
 
-                <div class="abtMe1">
+                <div class="whatAb">
                    <p class="pro">WORK</p>
                 </div>
 </section>
 
-
+{{#each data}}
 <section class="aboutPort">
             <div class="mainPort">
                  <div class="portDes">
@@ -65,13 +67,14 @@
 </section>
 
                   <div class="recBrand">
-                        <img ="organsImg" src="images/organs_logo.svg" alt="organs logo">
+                        <img ="organsImg" src="images/{{LogoImg}}" alt="organs logo">
                     </div>
 
                        <div class="brandImg">
                             <p class="mSubtitle">Web Responsive Design</p>
                                <h2 class="pHead">{{Subt1}}</h2>
                               <img src="images/{{Img1}}">
+                              <img src="images/{{Img1M}}">
                          </div>
 
 
@@ -79,25 +82,26 @@
                             <p class="mSubtitle">Collateral Design</p>
                                <h2 class="pHead">{{Subt2}}</h2>
                               <img src="images/{{Img2}}">
-                              <img src="images/{{Img3}}">
                          </div>
 
                         <div class="arrows">
                                <div class="prevArrow">
-                                 {{!-- <a href="/"><img id="inst" src="images/m_prev_arrow.svg" alt="previous arrow"></a> --}}
-                                   <p>PREV</p>
-                              /div>
+                                 <a href="/#portfolio">
+                                  <img id="inst" src="images/m_prev_arrow.svg" alt="previous arrow">
+                                   <p>HOME</p>
+                                   </a>
+                              </div>
 
-                                <div class="nextArrow">
-                                 	{{!-- <a href="/"><img id="inst" src="images/m_next_arrow.svg" alt="next arrow"></a> --}}
+                                {{!-- <div class="nextArrow">
+                                 	<a href="/"><img id="inst" src="images/m_next_arrow.svg" alt="next arrow"></a>
                                    <p>NEXT</p>
-                                 </div>
+                                 </div> --}}
 
 
                         </div>
-
+{{/each}}
                         
- <footer id="mainFooter">
+ {{!-- <footer id="mainFooter">
              <a class="logo" href="/"><img src="images/g_lv_symbol.svg" alt="logo"/></a>
 
              <div id="copyRight">
@@ -110,6 +114,6 @@
 						   <a href="https://www.linkedin.com/in/luisa-valero/"><img id="ld" src="images/g_linkedin.svg" alt="linkedin"></a>
              </div>
       
- </footer>
+ </footer> --}}
 
 
