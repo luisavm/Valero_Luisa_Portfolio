@@ -24,6 +24,14 @@ router.get("/about", function(req, res, next){
   res.render('about', {title: "about me"});
 });
 
+router.get("/portfolio", function(req, res, next){ 
+  // res.send("this is portfolio");
+
+  console.log('on main route about');
+  res.render('portfolio', {title: "my works"});
+});
+
+
 router.get("/works/:target", (req, res) => {
     //here is where we set up the quiery
     let query = `SELECT * FROM tbl_works WHERE ID="${req.params.target}"`;
