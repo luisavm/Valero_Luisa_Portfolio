@@ -7,7 +7,9 @@
         .luiImage3 {
             position: absolute;
             z-index: -4;
+            width: 100%;
         }
+        
         .logo {
             position: absolute;
             z-index: 4;
@@ -26,7 +28,7 @@
     
             h1{
                 font-family: $main-font;
-                font-size: 36px;
+                font-size: 35px;
                 color: $w-box-color;
                 margin-bottom: -10px;
                 letter-spacing: 1px;
@@ -116,8 +118,6 @@
                     right: 0;
 
                 }
-
-            
                 
             }
         }
@@ -142,6 +142,14 @@
         letter-spacing: 1px;
         color:$purple
     }
+
+    
+    .feature:nth-of-type(2) {
+        .homeImg {
+            margin-left: 40px;
+        }
+    }
+
    .feature
    {   background-color: $w-box-color;
        margin-top:40px;
@@ -179,8 +187,19 @@
             margin-top: 20px;
             font-weight: 400;
             font-style: normal;
-          
         }
+
+        // .smolD-wrapper {
+        //     display: flex;
+        //     flex-direction: row;
+        //     justify-content: space-between;
+        //     width: 80%;
+        //     .smolDes {
+        //         width: 70%;
+        //         margin-left: 48px;
+        //     }
+        // }
+
 
         .pInclude{
             font-family: $p-font;
@@ -263,18 +282,533 @@
 
     .mArrow {
         margin-top: 20px;
+        text-decoration: none;
         .viewMore {
-            p{ text-decoration: none;
-                font-style: $main-font;
+                
+                color: $dmaroon;
+                font-family: $main-font;
                 font-size: 16px;
                 margin-top: 40px;
-
-            }
             #pur_right_a {
                 width: 20px;
                 margin-bottom: -5px;
             }
         }
     }
+
+}
+
+@media screen and (min-width: 425px) {
+    #designer {
+        #myBrand {
+            position: relative;
+            .luiImage1, .luiImage3 {
+                display: none;
+            }
+            .luiImage2 {
+                display: block;
+                position: absolute;
+                width: 100%;
+                z-index: -4;
+            }
+        }
+
+   }
+}
+
+
+@media screen and (min-width: 768px) {
+    #designer {
+        #myBrand {
+            .logo {
+                position: absolute;
+                z-index: 7;
+                img {
+                    width: 60px;
+                    margin-top: 60%;
+                    margin-left: 60%;
+                }
+            }
+            .whoIam {
+                text-align: center;
+                padding-top: 60px;
+
+                .pro {
+                    display: block;
+                    margin-bottom: 150px;
+                    position: relative;
+                    color: $white;
+                    font-family: $sub-font;
+                    font-size: 18px;
+                    letter-spacing: 1px;
+                }
+        
+                h1{
+                    font-family: $main-font;
+                    font-size: 45px;
+                    color: $w-box-color;
+                    margin-bottom: -10px;
+                    letter-spacing: 1px;
+              
+                }
+        
+                h2 {
+                    font-family: $sub-font;
+                    color: $w-box-color;
+                    font-size: 20px;
+                    margin-top: 20px;
+                  
+                }
+    
+                .mySelf {
+                    background-color: $p-box-color;
+                    width: 660px;
+                    margin-top: 120px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    color: $white;
+                    // text-align: left;
+                    padding: 28px;
+                    padding-bottom: 70px;
+                    position: relative;
+    
+                    .wSubtitle {
+                        font-family: $p-font;
+                        font-size: 20px;
+        
+                    }
+    
+                    .wHead {
+                        margin-bottom: 30px;
+                        font-size: 30px;
+                        text-align: 10px;
+                        line-height: 32px;
+                        letter-spacing: 1px;
+                        width: 130%;
+                        margin-left: 18px;
+                    }
+    
+                    p {
+                        font-family: $p-font;
+                        font-size: 18px;
+                        line-height: 30px;
+                        margin-left: 20px;
+                    }
+    
+                    .gbtn {
+                        margin-bottom: 20px;
+                        a {
+                            text-decoration: none;
+                            color: $white;
+                            margin-top: 20px;
+                            width: 220px;
+                            font-size: 20px;
+                            &:hover {
+                                
+                                p {
+                                    color: $hover-rose;
+                                    transition: all 0.2s ease;
+                                }
+                                #g_arrow {
+                                    .st0 {
+                                        fill: $hover-rose;
+                                        transition: all 0.2s ease;
+                                    }
+                                }
+                            }
+                            p{
+                                font-family: $main-font;
+                                font-size: 16px;
+                                color: $w-box-color;
+                                margin-top: 40px;
+                                // width: 70%;
+                            }
+                            #g_arrow {
+                                width: 25px;
+                                padding-left: 10px;
+                                margin-bottom: -7px;
+                                .st0 {
+                                    fill: #F2F0F0;
+                                }
+                            }
+    
+                            
+                        }
+                    }
+                    .wLine {
+                        position: absolute;
+                        width: 290px;
+                        border-top: $white solid 11px;
+                        right: 0;
+                        margin-top: -40px;
+    
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    .showWorks{ 
+        padding-top: 50px;
+        text-align: center;
+    
+    
+        .mSubtitle {
+            font-family: $p-font;
+            font-size: 18px;
+            color: $dmaroon;
+        
+        
+        }
+        h2 {
+            margin-bottom: 30px;
+            font-family: $main-font;
+            font-size: 38px;
+            line-height: 35px;
+            margin-top: -1px;
+            letter-spacing: 1px;
+            color:$purple;
+        
+        }
+
+        .feature:nth-of-type(1) {
+            .homeImg {
+                width: 470px;
+                margin-top: 60px;
+                margin-right: 20px;
+              
+            }
+        }
+
+        .feature:nth-of-type(2) {
+            .homeImg {
+                width: 220px;
+                margin-top: 20px;
+                margin-left: 50px;
+            }
+        }
+
+       .feature {   
+           background-color: $w-box-color;
+           margin-top: 40px;
+           text-align: left;
+           padding: 28px;
+           padding-bottom: 70px;
+           position: relative;
+           display: flex;
+           flex-direction: row;
+
+           
+           img {
+               margin: auto;
+               width: 60%;
+               order: 1;
+               margin-top: 50px;
+           }
+           
+           .featureText{
+                width: 50%;
+                order: -1;
+                text-align: left;
+                margin-left: 5%;
+
+            p{
+                font-family: $p-font;
+                font-size: 18px;
+                color: $dmaroon;
+                line-height: 24px;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                width: 90%;
+            
+               }
+    
+            h2{
+                font-family: $main-font;
+                font-size: 28px;
+                color: $purple;
+                line-height: 24px;
+                width: 140%;
+         
+            }
+    
+            h3{ 
+                font-family: $main-font;
+                font-size: 20px;
+                color: $purple;
+                line-height: 24px;
+                margin-top: 20px;
+                font-weight: 400;
+                font-style: normal;
+               
+            }
+
+            .smolD-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 80%;
+                .smolDes {
+                    width: 60%;
+                }
+            }
+    
+            .pInclude{
+                font-family: $p-font;
+                font-size: 18px;
+                color: $grey;
+                line-height: 24px;
+                margin-bottom: 15px;
+                margin-top: 6px;
+            }
+    
+            .mArrow {
+                text-decoration: none;
+                margin-top: 20px;
+                .viewMore {
+                    p{
+                        font-family: $main-font;
+                        font-size: 16px;
+                        margin-top: 40px;
+        
+                    }
+                    #pur_right_a {
+                        width: 20px;
+                        margin-bottom: -5px;
+                    }
+                }
+            }
+    
+           }
+       }
+    
+    }
+
+    #reelVideo{
+        width: 100%;
+        text-align: center;
+        .mSubtitle{
+            text-align: center;
+            font-family: $p-font;
+            font-size: 20px;
+            color: $dmaroon;
+            line-height: 24px;
+            margin-top: 80px;
+        }
+    
+        .pHead{
+            text-align: center;
+            font-family: $main-font;
+            font-size: 38px;
+            color: $purple;
+            line-height: 24px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+    
+    }
+
+    .get-Intouch{
+        margin-top:20px;
+        text-align: center;
+        padding: 28px;
+        padding-bottom: 70px;
+        position: relative;
+    
+    
+        .mSubtitle{
+            text-align: center;
+            font-family: $p-font;
+            font-size: 20px;
+            color: $dmaroon;
+            line-height: 30px;
+            margin-top: 70px;
+        }
+    
+        .pHead{
+            text-align: center;
+            font-family: $main-font;
+            font-size: 38px;
+            color: $purple;
+            line-height: 30px;
+            margin-bottom: 60px;
+        }
+    
+        .mArrow {
+            margin-top: 20px;
+            .viewMore {
+                p{ text-decoration: none;
+                    font-family: $main-font;
+                    font-size: 16px;
+                    margin-top: 40px;
+    
+                }
+                #pur_right_a {
+                    width: 20px;
+                    margin-bottom: -5px;
+                }
+            }
+        }
+    
+    }    
+}
+
+@media screen and (min-width: 1200px) {
+    #designer {
+        #myBrand {
+            position: relative;
+            .luiImage2, .luiImage3 {
+                display: none;
+            }
+            .luiImage1 {
+                display: block;
+                width: 100%;
+                position: absolute;
+                z-index: -4;
+            }
+           
+        }
+    }
+
+    .showWorks{ 
+        padding-top:50px;
+        text-align:center;
+    
+    
+        .mSubtitle {
+            font-family: $p-font;
+            font-size: 18px;
+            color: $dmaroon;
+            margin-top: 20px;
+        
+        
+        }
+        h2 {
+            margin-bottom: 30px;
+            font-family: $main-font;
+            font-size: 38px;
+            line-height: 35px;
+            letter-spacing: 1px;
+            margin-top: -1px;
+            color:$purple;
+           
+        
+        }
+
+        .feature:nth-of-type(1) {
+            .homeImg {
+                width: 470px;
+                margin-top: 60px;
+                margin-right: 90px;
+              
+            }
+        }
+
+        .feature:nth-of-type(2) {
+            .homeImg {
+                width: 260px;
+                margin-top: 20px;
+                margin-left: 100px;
+            }
+        }
+
+       .feature {   
+           background-color: $w-box-color;
+           margin-top: 40px;
+           text-align: left;
+           padding: 28px;
+           padding-bottom: 70px;
+           position: relative;
+           display: flex;
+           flex-direction: row;
+
+           
+           img {
+               margin: auto;
+               width: 60%;
+               order: 1;
+               margin-top: 50px;
+           }
+           
+           .featureText{
+                width: 50%;
+                order: -1;
+                text-align: left;
+                margin-left: 5%;
+
+            p{
+                font-family: $p-font;
+                font-size: 18px;
+                color: $dmaroon;
+                line-height: 24px;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                width: 90%;
+            
+               }
+    
+            h2{
+                font-family: $main-font;
+                font-size: 28px;
+                color: $purple;
+                line-height: 24px;
+                width: 140%;
+         
+            }
+    
+            h3{ 
+                font-family: $main-font;
+                font-size: 20px;
+                color: $purple;
+                line-height: 24px;
+                margin-top: 20px;
+                font-weight: 400;
+                font-style: normal;
+               
+            }
+
+            .smolD-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 80%;
+                .smolDes {
+                    width: 60%;
+                }
+            }
+    
+            .pInclude{
+                font-family: $p-font;
+                font-size: 18px;
+                color: $grey;
+                line-height: 24px;
+                margin-bottom: 15px;
+                margin-top: 6px;
+            }
+    
+            .mArrow {
+                text-decoration: none;
+                margin-top: 20px;
+                .viewMore {
+                    p{
+                        font-family: $main-font;
+                        font-size: 16px;
+                        margin-top: 40px;
+        
+                    }
+                    #pur_right_a {
+                        width: 20px;
+                        margin-bottom: -5px;
+                    }
+                }
+            }
+    
+           }
+       }
+    
+    }
+
+
 
 }
