@@ -1,0 +1,280 @@
+#designer {
+    #myBrand {
+        position: relative;
+        .luiImage1, .luiImage2 {
+            display: none;
+        }
+        .luiImage3 {
+            position: absolute;
+            z-index: -4;
+        }
+        .logo {
+            position: absolute;
+            z-index: 4;
+            img {
+                width: 40px;
+                margin-top: 80%;
+                margin-left: 70%;
+            }
+        }
+        .whoIam {
+            text-align: center;
+            padding-top: 210px;
+            .pro {
+                display: none;
+            }
+    
+            h1{
+                font-family: $main-font;
+                font-size: 36px;
+                color: $w-box-color;
+                margin-bottom: -10px;
+                letter-spacing: 1px;
+          
+            }
+    
+            h2 {
+                font-family: $sub-font;
+                color: $w-box-color;
+                font-size: 14px;
+                margin-top: 20px;
+              
+            }
+
+            .mySelf {
+                background-color: $p-box-color;
+                margin-top:50px;
+                color: $white;
+                text-align: left;
+                padding: 28px;
+                padding-bottom: 70px;
+                position: relative;
+
+                .wSubtitle {
+                    font-family: $p-font;
+                    font-size: 18px;
+                    margin-bottom: -15px;
+                }
+
+                .wHead {
+                    margin-bottom: 30px;
+                    font-size: 28px;
+                    text-align: 10px;
+                    line-height: 32px;
+                    letter-spacing: 1px;
+                }
+
+                p {
+                    font-family: $p-font;
+                    font-size: 16px;
+                    line-height: 27px;
+                }
+
+                .gbtn {
+                    margin-bottom: 20px;
+                    a {
+                        text-decoration: none;
+                        color: $white;
+                        margin-top: 20px;
+                        width: 220px;
+                        &:hover {
+                            
+                            p {
+                                color: $hover-rose;
+                                transition: all 0.2s ease;
+                            }
+                            #g_arrow {
+                                .st0 {
+                                    fill: $hover-rose;
+                                    transition: all 0.2s ease;
+                                }
+                            }
+                        }
+                        p{
+                            font-family: $main-font;
+                            font-size: 16px;
+                            color: $w-box-color;
+                            margin-top: 40px;
+                            // width: 70%;
+                        }
+                        #g_arrow {
+                            width: 25px;
+                            padding-left: 10px;
+                            margin-bottom: -7px;
+                            .st0 {
+                                fill: #F2F0F0;
+                            }
+                        }
+
+                        
+                    }
+                }
+                .wLine {
+                    position: absolute;
+                    width: 290px;
+                    border-top: $white solid 11px;
+                    right: 0;
+
+                }
+
+            
+                
+            }
+        }
+    }
+}
+
+.showWorks{ 
+    padding-top:50px;
+    text-align:center;
+
+    .mSubtitle {
+        font-family: $p-font;
+        font-size: 18px;
+        color: $dmaroon
+    }
+    h2 {
+        margin-bottom: 30px;
+        font-family: $main-font;
+        font-size: 28px;
+        text-align: 10px;
+        line-height: 35px;
+        letter-spacing: 1px;
+        color:$purple
+    }
+   .feature
+   {   background-color: $w-box-color;
+       margin-top:40px;
+       text-align: center;
+       padding: 28px;
+       padding-bottom: 70px;
+       position: relative;
+       
+       img {
+           margin: auto;
+       }
+       
+       .featureText{
+        p{
+            font-family: $p-font;
+            font-size: 16px;
+            color: $dmaroon;
+            line-height: 24px;
+        
+           }
+
+        h2{
+            font-family: $main-font;
+            font-size: 23px;
+            color: $purple;
+            line-height: 24px;
+    
+        }
+
+        h3{ 
+            font-family: $main-font;
+            font-size: 18px;
+            color: $purple;
+            line-height: 24px;
+            margin-top: 20px;
+            font-weight: 400;
+            font-style: normal;
+          
+        }
+
+        .pInclude{
+            font-family: $p-font;
+            font-size: 18px;
+            color: $grey;
+            line-height: 24px;
+            margin-bottom: 15px;
+        }
+
+        .mArrow {
+            text-decoration: none;
+            margin-top: 20px;
+            .viewMore {
+                p{
+                    font-style: $main-font;
+                    font-size: 16px;
+                    margin-top: 40px;
+    
+                }
+                #pur_right_a {
+                    width: 20px;
+                    margin-bottom: -5px;
+                }
+            }
+        }
+
+       }
+   }
+
+}
+
+#reelVideo{
+    width: 100%;
+    text-align: center;
+    .mSubtitle{
+        text-align: center;
+        font-family: $p-font;
+        font-size: 18px;
+        color: $dmaroon;
+        line-height: 24px;
+        margin-top: 70px;
+    }
+
+    .pHead{
+        text-align: center;
+        font-family: $main-font;
+        font-size: 28px;
+        color: $purple;
+        line-height: 24px;
+        margin-bottom: 60px;
+    }
+
+}
+
+.get-Intouch{
+    margin-top:20px;
+    text-align: center;
+    padding: 28px;
+    padding-bottom: 70px;
+    position: relative;
+
+
+    .mSubtitle{
+        text-align: center;
+        font-family: $p-font;
+        font-size: 18px;
+        color: $dmaroon;
+        line-height: 30px;
+        margin-top: 70px;
+    }
+
+    .pHead{
+        text-align: center;
+        font-family: $main-font;
+        font-size: 28px;
+        color: $purple;
+        line-height: 30px;
+        margin-bottom: 60px;
+    }
+
+    .mArrow {
+        margin-top: 20px;
+        .viewMore {
+            p{ text-decoration: none;
+                font-style: $main-font;
+                font-size: 16px;
+                margin-top: 40px;
+
+            }
+            #pur_right_a {
+                width: 20px;
+                margin-bottom: -5px;
+            }
+        }
+    }
+
+}
