@@ -21,33 +21,47 @@
 
 <section id="designer">
     <section id="myBrand">
-       <img id="luiImage" src="images/luisa1.jpg" alt="luisa valero image">
-       <a class="logo" href="/"><img src="images/g_lv_symbol.svg" alt="logo"/></a>
+         <img class="luiImage1" src="images/luisa1.jpg" alt="luisa valero image">
+         <img class="luiImage2" src="images/luisa2.jpg" alt="luisa valero image">
+         <img class="luiImage3" src="images/luisa3.jpg" alt="luisa valero image">
+       
+         <a class="logo" href="/"><img src="images/g_lv_symbol.svg" alt="logo"/></a>
+         <div class="whoIam">
+            <p class="pro">GRAPHIC & UI DESIGNER</p>
+            <h1>LUISA VALERO</h1>
+            <h2 class="tagline">Intuitively visual. Eye for design.</h2>
+
+            <div class="mySelf">
+               <p class="wSubtitle">Me, myself and Eye</p>
+               <h2 class="wHead">PASSIONATE DESIGNER / POTENT BRANDER</h2>
+               <p>I love what I do, and I do that work with enthusiasm and care.
+                        When I am presented with a visual communication challenge, 
+                        my mind starts arranging images and typography, like a puzzle, 
+                        with the goal of achieving maximum visual impact. 
+                        My goal is to help you tell your story and to captivate and engage 
+                        the people important to you.</p>
+
+               <div class="gbtn">
+                  <a class="greyArrow" href="/about">
+                     <p class="viewMore">VIEW MORE ABOUT
+                        <svg version="1.1" id="g_arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           x="0px" y="0px" viewBox="0 0 268.8 268.8" style="enable-background:new 0 0 268.8 268.8;" xml:space="preserve">
+                        <style type="text/css">
+                           .st0{fill:#F2F0F0;}
+                        </style>
+                        <path id="arrow" class="st0" d="M265.2,125.6l-80-80c-4.9-4.9-12.8-4.9-17.7,0s-4.9,12.8,0,17.7l58.7,58.7H12.5
+                           C5.6,122,0,127.6,0,134.5c0,6.9,5.6,12.5,12.5,12.5h213.7l-58.7,58.7c-4.9,4.9-4.9,12.8,0,17.7c2.4,2.4,5.6,3.7,8.8,3.7
+                           s6.4-1.2,8.8-3.7l80-80C270.1,138.4,270.1,130.5,265.2,125.6z"/>
+                        </svg>
+                     </p>
+                  </a>
+               </div>
+               <div class="wLine"></div>
+            </div>
+         </div>
     </section>
 
-    <div class="whoIam">
-        <p class="pro">GRAPHIC & UI DESIGNER</p>
-        <h1>LUISA VALERO</h1>
-        <h2 class="tagline">Intuitively visual. Eye for design.</h2>
-
-        <div class="mySelf">
-             <p class="wSubtitle">Me, myself and Eye</p>
-               <h2 class="wHead">PASSIONATE DESIGNER/POTENT BRANDER</h2>
- 
-                  <p>I love what I do, and I do that work with enthusiasm and care.
-                   When I am presented with a visual communication challenge, 
-                   my mind starts arranging images and typography, like a puzzle, 
-                  with the goal of achieving maximum visual impact. 
-                  My goal is to help you tell your story and to captivate and engage 
-                  the people important to you.</p>
-
-                       <div class="gbtn">
-                          <a class="greyArrow" href="/"><p class="viewMore">VIEW MORE ABOUT</p><img src="images/g_rarrow.svg" alt="right arrow"/></a>
-               
-                             <div class="wLine"></div>
-                       </div>
-         </div>
-    </div>
+    
 
 </section>
 
@@ -60,22 +74,35 @@
 
             {{#each data}}
                <section class="feature">
+                  <img src="images/{{homeImg}}">
                   <div class="featureText">
                      <p>{{Including}}</p>
                      <h2>{{Title}}</h2>
                      <div class="smolD-wrapper">
                         <div class="smolDes">
-                           <h3 class="phead3"> My Role</h3>
-                           <p>{{MyRole}}</p>
+                           <h3 class="phead3">My Role</h3>
+                           <p class="pInclude">{{MyRole}}</p>
                         </div>
                         <div class="smolDes">
-                           <h3 class="phead3"> Year</h3>
-                           <p>{{Year}}</p>
+                           <h3 class="phead3">Year</h3>
+                           <p class="pInclude">{{Year}}</p>
                         </div>
                      </div>
-                     <a class="mArrow" href="/{{ID}}"><p class="viewMore">VIEW MORE ABOUT</p><img src="images/m_next_arrow.svg" alt="right arrow"/></a>
+                     <a class="mArrow" href="/{{ID}}">
+                        <p class="viewMore">VIEW MORE WORK
+                        <svg version="1.1" id="pur_right_a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                              x="0px" y="0px" viewBox="0 0 268.8 268.8" style="enable-background:new 0 0 268.8 268.8;" xml:space="preserve">
+                           <style type="text/css">
+                              .st0{fill:#90405E;}
+                           </style>
+                           <path id="arrow" class="st0" d="M265.2,125.6l-80-80c-4.9-4.9-12.8-4.9-17.7,0s-4.9,12.8,0,17.7l58.7,58.7H12.5
+                              C5.6,122,0,127.6,0,134.5c0,6.9,5.6,12.5,12.5,12.5h213.7l-58.7,58.7c-4.9,4.9-4.9,12.8,0,17.7c2.4,2.4,5.6,3.7,8.8,3.7
+                              s6.4-1.2,8.8-3.7l80-80C270.1,138.4,270.1,130.5,265.2,125.6z"/>
+                           </svg>
+                        </p>
+                     </a>
                  </div>
-                 <img src="images/{{homeImg}}">
+   
                </section>
             {{/each}}
 
@@ -97,7 +124,19 @@
               <p class="mSubtitle">Do you like my work?</p>
               <h2 class="pHead">LET'S WORK TOGETHER</h2>
 
-              <a class="mArrow" href="/"><p class="viewMore">GET IN TOUCH</p><img src="images/m_next_arrow.svg" alt="right arrow"/></a>
+             <a class="mArrow" href="/#contact">
+                        <p class="viewMore"> GET IN TOUCH
+                        <svg version="1.1" id="pur_right_a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                              x="0px" y="0px" viewBox="0 0 268.8 268.8" style="enable-background:new 0 0 268.8 268.8;" xml:space="preserve">
+                           <style type="text/css">
+                              .st0{fill:#90405E;}
+                           </style>
+                           <path id="arrow" class="st0" d="M265.2,125.6l-80-80c-4.9-4.9-12.8-4.9-17.7,0s-4.9,12.8,0,17.7l58.7,58.7H12.5
+                              C5.6,122,0,127.6,0,134.5c0,6.9,5.6,12.5,12.5,12.5h213.7l-58.7,58.7c-4.9,4.9-4.9,12.8,0,17.7c2.4,2.4,5.6,3.7,8.8,3.7
+                              s6.4-1.2,8.8-3.7l80-80C270.1,138.4,270.1,130.5,265.2,125.6z"/>
+                           </svg>
+                        </p>
+                     </a>
      
                   <div id="contactMe">
                       <p class="close">x</p>
