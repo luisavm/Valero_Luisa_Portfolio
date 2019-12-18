@@ -1,72 +1,58 @@
 (()=> {
-    // try to get the object and do stuff with it
+    console.log("fire");
+    const HB = document.querySelector("#HB"),
+          HBmenu = document.querySelector("#burgerCon"),
+          lis = document.querySelectorAll(".li");
 
-    const seeMoreButtons = document.querySelectorAll(".see-more"),
-        popOver = document.querySelector(".popover");
-
-    const waypoint = new Waypoint({
-        // what element is this waypoint looking at?
-        // the handler will fire when it scrolls into view
-        element: document.getElementById('beer2'),
-        // what should we do when we hit the waypoint? this is up to you?
-        // you can trigger animation, do an AJAX call... whatever
-        handler: function(direction) {
-          console.log('Scrolled to waypoint!')
-          this.element.innerHTML += `
-          <p>Added this with waypooint! we are scrolling ${direction}</p>`
-        }
-      })
-
-      const waypoint2 = new Waypoint({
-        // what element is this waypoint looking at?
-        // the handler will fire when it scrolls into view
-
-        element: document.getElementById('beer3'),
-        // what should we do when we hit the waypoint? this is up to you?
-        // you can trigger animation, do an AJAX call... whatever
-        handler: function(direction) {
-          console.log('Scrolled to waypoint 2!')
-        },
-
-        offset: 200
-
-      })
-      
-    function showPopover(beerdata, el) {
-        popOver.querySelector(".ipa-rating").textContent = `IPA Rating: ${beerdata.IpaRating}`;
-        popOver.querySelector(".ratings").textContent = `Average Rating: ${beerdata.ratings}`;
-        popOver.querySelector(".beer-description").textContent = beerdata.description;
-
-        popOver.classList.toggle("show-popover");
-        el.appendChild(popOver);
+    function ocMenu() {
+      HBmenu.classList.toggle("showHB");
+      HB.classList.toggle("rotate");
     }
 
-      // do our fetch call to the database
-    function fetchData() {
-            url = `/svgdata/${this.dataset.target}`;
-            let targetElement = this;
+    HB.addEventListener("click", ocMenu);
+    lis.forEach(li => 
+      li.addEventListener("click", function() {
+        HBmenu.classList.remove("showHB");
+        HB.classList.remove("rotate");
+      })
+    );
 
-            fetch(url)
-            .then(res => res.json())
-            .then(data => {
-                console.log(data);
+    const homeHB = document.querySelector(".homeHB");
 
-                //populate the popover
-                showPopover(data, targetElement);
-            })
-            .catch(function(error){ 
-              console.log(error);
-            })
+    if (homeHB === null) {
+      console.log("no need for menu color change");
+    } else {
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset >= 300) {
+          homeHB.classList.add("dark");
+        }
+      });
+  
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset <= 300) {
+          homeHB.classList.remove("dark");
+        }
+      });
+    }
+
+    const contactB = document.querySelector("#conBut"),
+          conForm = document.querySelector("#contactMe"),
+          cloCon = document.querySelector(".close");
+
+    if (contactB, cloCon, cloCon === null) {
+      console.log("this page has no contact form");
+    } else {
+      function openCont() {
+        conForm.classList.remove("hiddenCon");
       }
-      
-
-    const svgGraphic = document.querySelector(".svg-wrapper");
-
-    // svgGraphic.addEventListener("click", () => {
-    //     console.log(this.querySelector('.svg-wrapper'));
-    // })
-
+      function closeCont() {
+        conForm.classList.add("hiddenCon");
+      }
+      contactB.addEventListener("click", openCont);
+      cloCon.addEventListener("click", closeCont);
+    }
 
 
-    seeMoreButtons.forEach(button => button.addEventListener("click", fetchData));
+    
+
 })();
