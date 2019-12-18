@@ -2,18 +2,26 @@
  <nav id="mainNav">
   <h2 class="hidden">Main Navigation</h2>
      
-        <button id="button"></button>
+        <a id="HB" class="homeHB ">
+           <svg version="1.1" id="burger_menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+               y="0px" viewBox="0 0 77.7 42.3" style="enable-background:new 0 0 77.7 42.3;" xml:space="preserve">
+            <style type="text/css">
+               .hb{fill:#F2F0F0;}
+            </style>
+            <path id="bottom_x5F_border" class="hb" d="M69.2,15.2h-60c-1.5,0-2.7-1.2-2.7-2.7l0,0c0-1.5,1.2-2.7,2.7-2.7h60
+               c1.5,0,2.7,1.2,2.7,2.7l0,0C71.9,14,70.7,15.2,69.2,15.2z"/>
+            <path id="top_x5F_border_1_" class="hb" d="M69.2,34.1h-60c-1.5,0-2.7-1.2-2.7-2.7l0,0c0-1.5,1.2-2.7,2.7-2.7h60
+               c1.5,0,2.7,1.2,2.7,2.7l0,0C71.9,32.6,70.7,34.1,69.2,34.1z"/>
+            </svg>
+        </a>
 
-           <div id="burgerCon">
-           {{!-- <div id="burger">
-           <a class="menu" href="/"><img src="images/g_burger_menu.svg" alt="burger menu"/></a>
-           </div> --}}
-
+           <div id="burgerCon" class="">
+              <img id="m_lv_symbol" src="images/half_symbol.jpg" alt="ham img">
                   <ul id="burgerMenu">
-                    <li><a href="/#designer">Home</a><li>
-                     <li><a href="/about">About me</a><li>
-                     <li><a href="#portfolio">Work</a><li>
-                     <li><a href="#conatct">Contact</a><li>
+                    <li class="li"><a href="/#designer">Home</a><li>
+                     <li class="li"><a href="/about">About me</a><li>
+                     <li class="li"><a href="/#portfolio">Work</a><li>
+                     <li class="li"><a href="/#contact">Contact</a><li>
                   </ul>
             </div>
  </nav>
@@ -120,13 +128,13 @@
          
    </section>
 
-   <section class="get-Intouch">
-              <p class="mSubtitle">Do you like my work?</p>
-              <h2 class="pHead">LET'S WORK TOGETHER</h2>
+   <section class="get-Intouch" id="contact">
+            <p class="mSubtitle">Do you like my work?</p>
+            <h2 class="pHead">LET'S WORK TOGETHER</h2>
 
-             <a class="mArrow" href="/#contact">
-                        <p class="viewMore"> GET IN TOUCH
-                        <svg version="1.1" id="pur_right_a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            <a id="conBut" class="mArrow" href="#contact">
+                  <p class="viewMore"> GET IN TOUCH
+                     <svg version="1.1" id="pur_right_a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                               x="0px" y="0px" viewBox="0 0 268.8 268.8" style="enable-background:new 0 0 268.8 268.8;" xml:space="preserve">
                            <style type="text/css">
                               .st0{fill:#90405E;}
@@ -134,11 +142,11 @@
                            <path id="arrow" class="st0" d="M265.2,125.6l-80-80c-4.9-4.9-12.8-4.9-17.7,0s-4.9,12.8,0,17.7l58.7,58.7H12.5
                               C5.6,122,0,127.6,0,134.5c0,6.9,5.6,12.5,12.5,12.5h213.7l-58.7,58.7c-4.9,4.9-4.9,12.8,0,17.7c2.4,2.4,5.6,3.7,8.8,3.7
                               s6.4-1.2,8.8-3.7l80-80C270.1,138.4,270.1,130.5,265.2,125.6z"/>
-                           </svg>
-                        </p>
-                     </a>
+                     </svg>
+                  </p>
+            </a>
      
-                  <div id="contactMe">
+                  <div id="contactMe" class="hiddenCon">
                       <p class="close">x</p>
                          <div id="shortCont">
                                <p class="mSubtitle">let's talk</p>
@@ -155,15 +163,15 @@
                                      <p>Phone: 226-493-0243</p>
                                      <p>London,ON,Canada</p>
                                  </div>
-
-                                 <div id="socialMedia">
-                                   	<a href="https://www.instagram.com/luiva.m/"><img id="inst" src="images/m_instagram.svg" alt="instagram"></a>
-						                  <a href="https://www.linkedin.com/in/luisa-valero/"><img id="twi" src="images/m_linkedin.svg" alt="linkedin"></a>
-
-                                </div>
-                     
-   
+                                 <div id="socialMedia2">
+                                       <a href="https://www.instagram.com/luiva.m/"><img id="inst" src="images/m_instagram.svg" alt="instagram"></a>
+                                       <a href="https://www.linkedin.com/in/luisa-valero/"><img id="twi" src="images/m_linkedin.svg" alt="linkedin"></a>
+                                 </div>
                          </div>
+                         <div id="socialMedia">
+                              <a href="https://www.instagram.com/luiva.m/"><img id="inst" src="images/m_instagram.svg" alt="instagram"></a>
+						            <a href="https://www.linkedin.com/in/luisa-valero/"><img id="twi" src="images/m_linkedin.svg" alt="linkedin"></a>
+                        </div>
                                   <form class="cols" id="contactForm" action="form.php" method="POST">
 	                                  <label for="name">First and last name</label>
 	                                  <input class="inputField" type="text" required id="name" name="fullName">

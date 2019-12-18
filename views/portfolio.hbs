@@ -1,23 +1,30 @@
 <header>
- <nav id="mainNav">
-  <h2 class="hidden">Main Navigation</h2>
-     
-  <button id="button2"></button>
+ <nav id="mainNav">
+  <h2 class="hidden">Main Navigation</h2>
+     
+        <a id="HB" class="dark ">
+           <svg version="1.1" id="burger_menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+               y="0px" viewBox="0 0 77.7 42.3" style="enable-background:new 0 0 77.7 42.3;" xml:space="preserve">
+            <style type="text/css">
+               .hb{fill:#F2F0F0;}
+            </style>
+            <path id="bottom_x5F_border" class="hb" d="M69.2,15.2h-60c-1.5,0-2.7-1.2-2.7-2.7l0,0c0-1.5,1.2-2.7,2.7-2.7h60
+               c1.5,0,2.7,1.2,2.7,2.7l0,0C71.9,14,70.7,15.2,69.2,15.2z"/>
+            <path id="top_x5F_border_1_" class="hb" d="M69.2,34.1h-60c-1.5,0-2.7-1.2-2.7-2.7l0,0c0-1.5,1.2-2.7,2.7-2.7h60
+               c1.5,0,2.7,1.2,2.7,2.7l0,0C71.9,32.6,70.7,34.1,69.2,34.1z"/>
+            </svg>
+        </a>
 
-      <p class="close">x</p>
-
-           <div id="burgerCon2">
-           {{!-- <div id="burger">
-           <a class="menu" href="/"><img src="images/m_burger_menu.svg" alt="burger menu"/></a>
-           </div> --}}
-                  <ul id="burgerMenu2">
-                    <li><a href="/home">Home</a><li>
-                     <li><a href="/about">About me</a><li>
-                     <li><a href="#">Work</a><li>
-                     <li><a href="#">Contact</a><li>
-                  </ul>
-            </div>
-</nav>
+           <div id="burgerCon" class="">
+              <img id="m_lv_symbol" src="images/half_symbol.jpg" alt="ham img">
+                  <ul id="burgerMenu">
+                    <li><a href="/#designer">Home</a><li>
+                     <li><a href="/about">About me</a><li>
+                     <li><a href="/#portfolio">Work</a><li>
+                     <li><a href="/#contact">Contact</a><li>
+                  </ul>
+            </div>
+ </nav>
 </header>
 
 <section class="showPort">
@@ -68,6 +75,12 @@
                   <div class="recBrand">
                         <img ="organsImg" src="images/{{LogoImg}}" alt="organs logo">
                     </div>
+
+                    <style>
+                       .brandImg {
+                          background-color: #{{bg_color}};
+                       }
+                    </style>
 
                        <div class="brandImg">
                             <p class="mSubtitle">Web Responsive Design</p>
