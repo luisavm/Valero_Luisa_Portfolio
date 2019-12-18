@@ -9,7 +9,7 @@ Hello the world! A designer and living in Canada. Intuitively visual. t
 View my live [site](http://luisavalero.herokuapp.com/)
 
 
-## Built with
+## Built with  
 * **HTML5**
 * **SASS/CSS3**
 * **JavaScript**
