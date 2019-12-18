@@ -4,21 +4,18 @@
 
 
 ## Intuitively visual. Eye for design.
-
 Hello the world! A designer and living in Canada. Intuitively visual. turning doodles into pixels. Strong interests in UI design, print design and branding. 
 
-View my live [site] (http://luisavalero.herokuapp.com/)
+View my live [site](http://luisavalero.herokuapp.com/)
 
 
-## Built with
-* **HTML5**
-* **SASS/CSS3**
-* **JavaScript**
-**Node JS**
-**MySQL**
-**Express**
-**Handlebars**
-
+## Built with  
+* **HTML5**
+* **SASS/CSS3**
+* **JavaScript**
+* **Node JS**
+* **Express**
+* **SQL**
 
 ## Programs to Install 
 * NPM
@@ -27,6 +24,9 @@ View my live [site] (http://luisavalero.herokuapp.com/)
 * Handlebars
 
 To install: `npm install`
+
+## Developer and Designer
+Luisa Valero - https://github.com/luisavm
 
 ## Future Plans
 - Add CSS animations

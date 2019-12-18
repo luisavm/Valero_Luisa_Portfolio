@@ -1,0 +1,341 @@
+#showPort{
+    #lvLogo{
+        .gdLogo {
+            position: absolute;
+            z-index: 4;
+             img {
+                width: 40px;
+                margin-top: 80%;
+                margin-left: 70%;
+            }
+        }
+    }
+
+    .whatAb{
+        .pro{
+          display: none;
+        }
+
+      }
+}
+
+.aboutPort{
+    padding-top: 120px;
+    padding-left: 10px;
+    text-align:left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    .mainPort {
+        .portDes{
+            #imgM{
+                width: 100%;
+                margin-top: 20px;
+            }
+            #imgT {
+                display: none;
+            }
+            #imgD {
+                display: none;
+            }
+            .mSubtitle {
+                font-family: $p-font;
+                font-size: 16px;
+                color: $dmaroon;
+                width: 200px;
+                line-height: 22px;
+            }
+            h1{
+        
+                margin-bottom: 30px;
+                font-family: $main-font;
+                margin-top: -20px;
+                font-size: 28px;
+                text-align: 10px;
+                line-height: 32px;
+                letter-spacing: 1px;
+                color: $purple;
+            }
+        
+        
+            p {
+                font-family: $p-font;
+                font-size: 16px;
+                line-height: 27px;
+                color: $grey;
+                margin-bottom: 15px;
+            }
+        }
+        .smolD-wrapper{
+            .smolDes2{
+                .phead3{
+                font-family: $main-font;
+                font-size: 16px;
+                color: $purple;
+                line-height: 24px;
+                margin-top: 20px;
+                font-weight: 400;
+                font-style: normal;
+                }
+                
+                .pInclude{
+                font-family: $p-font;
+                font-size: 16px;
+                color: $grey;
+                line-height: 24px;
+                margin-bottom: 15px;
+                }
+
+
+                .pInclude2{
+                    font-family: $p-font;
+                    font-size: 16px;
+                    color: $grey;
+                    line-height: 24px;
+                    margin-bottom: 15px;
+                    width: 60%;
+                    }
+            }
+    
+        }
+    }
+    
+    
+
+}
+
+
+.recBrand{
+    position: relative;
+    height: 120px;
+    width: 100%;
+    margin-top: 100px;
+    // background-color: black !important;
+    #logoImg{
+        position: absolute;
+        padding: 20px 60px 20px 60px;
+        box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.12);
+        width: 40%;
+        margin-left: 12%;
+        margin-top: -40px;
+    }
+   }
+
+//   style
+//   {
+
+//   }
+
+.brandImg{
+    text-align: center;
+    padding-bottom: 100px;
+    .mSubtitle{
+        text-align: center;
+        font-family: $p-font;
+        font-size: 16px;
+        color: $dmaroon;
+        line-height: 24px;
+        padding-top: 30px;
+    }
+    
+
+    .pHead{
+        font-family: $main-font;
+        font-size: 24px;
+        color: $purple;
+        line-height: 29px;
+        width: 100%;
+        margin-bottom: -14px;
+    }
+
+
+    #img1{
+        display: none;
+    }
+
+    #img2
+    {
+        width: 280px;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+
+    #imgP2
+    {
+        margin-top: 60px;
+    }
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    .prevArrow {
+        width: 90px;
+        a {
+            text-decoration: none;
+            p {
+                font-size: 18px;
+                font-family: $main-font;
+                color: $maroon;
+                &:hover {
+                    color: $hover-rose;
+                    transition: all 0.5s ease;
+                    svg {
+                        .pha {
+                            fill: $hover-rose;
+                            transition: all 0.5s ease;
+                        }
+                    }
+                }
+                svg {
+                    width: 22px;
+                    margin-bottom: -3px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .aboutPort{
+        padding-top: 120px;
+        padding-left: 10px;
+        text-align:left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        .mainPort {
+            .portDes{
+                #imgM{
+                    display: none;
+                }
+                #imgD {
+                    display: block;
+                    width: 100%;
+                    margin-top: 20px;
+                }
+                .mSubtitle {
+                    font-family: $p-font;
+                    font-size: 16px;
+                    color: $dmaroon;
+                    width: 200px;
+                    line-height: 22px;
+                }
+                h1{
+            
+                    margin-bottom: 30px;
+                    font-family: $main-font;
+                    margin-top: -20px;
+                    font-size: 28px;
+                    text-align: 10px;
+                    line-height: 32px;
+                    letter-spacing: 1px;
+                    color: $purple;
+                }
+            
+            
+                p {
+                    font-family: $p-font;
+                    font-size: 16px;
+                    line-height: 27px;
+                    color: $grey;
+                    margin-bottom: 15px;
+                }
+            }
+            .smolD-wrapper{
+                .smolDes2{
+                    .phead3{
+                    font-family: $main-font;
+                    font-size: 16px;
+                    color: $purple;
+                    line-height: 24px;
+                    margin-top: 20px;
+                    font-weight: 400;
+                    font-style: normal;
+                    }
+                    
+                    .pInclude{
+                    font-family: $p-font;
+                    font-size: 16px;
+                    color: $grey;
+                    line-height: 24px;
+                    margin-bottom: 15px;
+                    }
+    
+    
+                    .pInclude2{
+                        font-family: $p-font;
+                        font-size: 16px;
+                        color: $grey;
+                        line-height: 24px;
+                        margin-bottom: 15px;
+                        width: 60%;
+                        }
+                }
+        
+            }
+        }
+        
+        #imgD, #imgT {
+            display: none;
+        }
+    
+    }
+    .recBrand{
+        position: relative;
+        height: 120px;
+        width: 100%;
+        margin-top: 100px;
+        // background-color: black !important;
+        #logoImg{
+            position: absolute;
+            padding: 20px 60px 20px 60px;
+            box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.16);
+            width: 40%;
+            margin-left: 20%;
+            margin-top: -40px;
+        }
+    }
+    .brandImg{
+        text-align: center;
+        padding-bottom: 100px;
+        .mSubtitle{
+            text-align: center;
+            font-family: $p-font;
+            font-size: 16px;
+            color: $dmaroon;
+            line-height: 24px;
+            padding-top: 100px;
+        }
+        
+    
+        .pHead{
+            font-family: $main-font;
+            font-size: 24px;
+            color: $purple;
+            line-height: 29px;
+            width: 100%;
+            margin-bottom: -14px;
+        }
+    
+    
+        #img1{
+            display: none;
+        }
+    
+        #img2
+        {
+            width: 280px;
+            margin-top: 60px;
+            margin-left: 20px;
+        }
+    
+        #imgP2
+        {
+            margin-top: 60px;
+        }
+    }
+}
