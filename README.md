@@ -20,7 +20,7 @@ View my live site [http://luisavalero.herokuapp.com/]
 **Handlebars**
 
 
-## Programs to Install ⚙️
+## Programs to Install 
 * NPM
 * Node JS
 * Express
