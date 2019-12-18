@@ -489,6 +489,22 @@
             }
         }
 
+        .feature:nth-of-type(3) {
+            .homeImg {
+                width: 450px;
+                margin-top: 20px;
+                // margin-left: 50px;
+            }
+        }
+
+        .feature:nth-of-type(4) {
+            .homeImg {
+                width: 270px;
+                margin-top: 20px;
+                // margin-left: 50px;
+            }
+        }
+
        .feature {   
            background-color: $w-box-color;
            margin-top: 40px;
@@ -667,6 +683,7 @@
                 position: absolute;
                 z-index: -4;
             }
+            
            
         }
     }
