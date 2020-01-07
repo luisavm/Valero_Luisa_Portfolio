@@ -113,7 +113,7 @@
                 }
                 .wLine {
                     position: absolute;
-                    width: 290px;
+                    width: 305px;
                     border-top: $white solid 11px;
                     right: 0;
 
@@ -158,6 +158,12 @@
        padding: 28px;
        padding-bottom: 70px;
        position: relative;
+
+
+    //    .gBorder{
+    //     display:none;
+
+    //    }
        
        img {
            margin: auto;
@@ -278,7 +284,8 @@
         font-size: 28px;
         color: $purple;
         line-height: 30px;
-        margin-bottom: 60px;
+        margin-bottom: -16px;
+        
     }
 
     .mArrow {
@@ -325,9 +332,9 @@
                 position: absolute;
                 z-index: 7;
                 img {
-                    width: 60px;
-                    margin-top: 60%;
-                    margin-left: 60%;
+                    width: 50px;
+                    margin-top: 82%;
+                    margin-left: 72%;
                 }
             }
             .whoIam {
@@ -453,8 +460,7 @@
     .showWorks{ 
         padding-top: 50px;
         text-align: center;
-    
-    
+
         .mSubtitle {
             font-family: $p-font;
             font-size: 18px;
@@ -515,6 +521,11 @@
            position: relative;
            display: flex;
            flex-direction: row;
+
+        //    .gBorder{
+        //        background-color: $w-box-color;
+        //        width: 766px;
+        //    }
 
            
            img {
