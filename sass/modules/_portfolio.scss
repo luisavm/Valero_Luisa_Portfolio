@@ -42,8 +42,10 @@
                 font-family: $p-font;
                 font-size: 16px;
                 color: $dmaroon;
-                width: 200px;
+                width: 184px;
                 line-height: 22px;
+                margin-left: 30px;
+                text-align: center;
             }
             h1{
         
@@ -51,7 +53,7 @@
                 font-family: $main-font;
                 margin-top: -20px;
                 font-size: 28px;
-                text-align: 10px;
+                text-align: center;
                 line-height: 32px;
                 letter-spacing: 1px;
                 color: $purple;
@@ -70,7 +72,7 @@
             .smolDes2{
                 .phead3{
                 font-family: $main-font;
-                font-size: 16px;
+                font-size: 15px;
                 color: $purple;
                 line-height: 24px;
                 margin-top: 20px;
@@ -80,7 +82,7 @@
                 
                 .pInclude{
                 font-family: $p-font;
-                font-size: 16px;
+                font-size: 15px;
                 color: $grey;
                 line-height: 24px;
                 margin-bottom: 15px;
@@ -89,7 +91,7 @@
 
                 .pInclude2{
                     font-family: $p-font;
-                    font-size: 16px;
+                    font-size: 15px;
                     color: $grey;
                     line-height: 24px;
                     margin-bottom: 15px;
@@ -114,21 +116,17 @@
     #logoImg{
         position: absolute;
         padding: 20px 60px 20px 60px;
-        box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.12);
+        box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.07);
         width: 120px;
         margin-left: 12%;
         margin-top: -40px;
     }
    }
 
-//   style
-//   {
-
-//   }
 
 .brandImg{
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     .mSubtitle{
         text-align: center;
         font-family: $p-font;
@@ -162,7 +160,7 @@
 
     #imgP2
     {
-        margin-top: 60px;
+        margin-top: 40px;
     }
 }
 
@@ -199,6 +197,192 @@
     }
 }
 
+@media screen and (min-width: 340px){
+
+    .recBrand{
+        position: relative;
+        height: 120px;
+        width: 100%;
+        margin-top: 100px;
+        // background-color: black !important;
+        #logoImg{
+            position: absolute;
+            padding: 20px 60px 20px 60px;
+            box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.07);
+            width: 120px;
+            margin-left: 10%;
+            margin-top: -40px;
+        }
+       }
+      
+}
+
+@media screen and (min-width: 344px){
+    .aboutPort{
+        padding-top: 120px;
+        padding-left: 10px;
+        text-align:left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        .mainPort {
+            .portDes{
+                
+                .mSubtitle {
+                    font-family: $p-font;
+                    font-size: 16px;
+                    color: $dmaroon;
+                    width: 200px;
+                    line-height: 22px;
+                    text-align: center;
+                    margin-left: 43px;
+                    
+                }
+            
+            
+            }
+     }
+    }
+
+}
+
+
+
+@media screen and (min-width: 368px){
+
+    .recBrand{
+        position: relative;
+        height: 120px;
+        width: 100%;
+        margin-top: 100px;
+        // background-color: black !important;
+        #logoImg{
+            position: absolute;
+            padding: 20px 60px 20px 60px;
+            box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.07);
+            width: 120px;
+            margin-left: 20%;
+            margin-top: -40px;
+        }
+       }
+      
+}
+@media screen and (min-width: 380px){
+    .brandImg{
+        text-align: center;
+        padding-bottom: 20px;
+        .mSubtitle{
+            text-align: center;
+            font-family: $p-font;
+            font-size: 16px;
+            color: $dmaroon;
+            line-height: 24px;
+            padding-top: 30px;
+        }
+        
+    
+        .pHead{
+            font-family: $main-font;
+            font-size: 24px;
+            color: $purple;
+            line-height: 29px;
+            width: 95%;
+            margin-left: 10px;
+            margin-bottom: -14px;
+           
+        }
+    
+}
+}
+
+@media screen and (min-width: 400px){
+    .aboutPort{
+        padding-top: 120px;
+        padding-left: 10px;
+        text-align:left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        .mainPort {
+            .portDes{
+                
+                .mSubtitle {
+                    font-family: $p-font;
+                    font-size: 16px;
+                    color: $dmaroon;
+                    width: 300px;
+                    line-height: 22px;
+                    text-align: center;
+                    margin-left: 16px;
+                    
+                }
+            
+            
+            }
+     }
+    }
+
+}
+
+@media screen and (min-width: 434px){
+    .aboutPort{
+        padding-top: 120px;
+        padding-left: 10px;
+        text-align:left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        .mainPort {
+            .portDes{
+                
+                .mSubtitle {
+                    font-family: $p-font;
+                    font-size: 16px;
+                    color: $dmaroon;
+                    width: 360px;
+                    line-height: 22px;
+                    text-align: center;
+                    margin-left: -3px;
+                    
+                }
+            
+            
+            }
+     }
+    }
+
+}
+
+
+@media screen and (min-width: 480px){
+    .aboutPort{
+        padding-top: 120px;
+        padding-left: 10px;
+        text-align:left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        .mainPort {
+            .portDes{
+                
+                .mSubtitle {
+                    font-family: $p-font;
+                    font-size: 16px;
+                    color: $dmaroon;
+                    width: 360px;
+                    line-height: 22px;
+                    text-align: center;
+                    margin-left: 15px;
+                    
+                }
+            
+            
+            }
+     }
+    }
+
+}
+
 @media screen and (min-width: 500px) {
     .aboutPort{
         padding-top: 120px;
@@ -221,8 +405,10 @@
                     font-family: $p-font;
                     font-size: 16px;
                     color: $dmaroon;
-                    width: 200px;
+                    width: 300px;
                     line-height: 22px;
+                    text-align: center;
+                    margin-left: 50px;
                 }
                 h1{
             
@@ -293,7 +479,7 @@
         #logoImg{
             position: absolute;
             padding: 20px 60px 20px 60px;
-            box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.16);
+            box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.07);
             width: 180px;
             margin-left: 20%;
             margin-top: -40px;
@@ -301,7 +487,7 @@
     }
     .brandImg{
         text-align: center;
-        padding-bottom: 100px;
+        padding-bottom: 5px;
         .mSubtitle{
             text-align: center;
             font-family: $p-font;
@@ -317,14 +503,14 @@
             font-size: 24px;
             color: $purple;
             line-height: 29px;
-            width: 100%;
+            width: 95%;
             margin-bottom: -14px;
         }
     
     
         #img1{
             display: block;
-            width: 480px;
+            width: 420px;
             margin-top: 60px;
             margin-left: auto;
             margin-right: auto;
@@ -338,6 +524,211 @@
         #imgP2
         {
             margin-top: 60px;
+            width: 770px;
+        }
+    }
+}
+
+@media screen and (min-width:768px){
+    #showPort{
+        #lvLogo{
+            .gdLogo {
+                position: absolute;
+                z-index: 4;
+                 img {
+                   width: 50px;
+                   margin-top: 82%;
+                   margin-left: 72%;;
+                }
+            }
+        }
+    
+        .whatAb{
+            text-align: center;
+            padding-top: 60px;
+            .pro{
+                display: block;
+                // margin-bottom: 150px;
+                position: relative;
+                color: $purple;
+                font-family: $sub-font;
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+    
+          }
+    }
+
+    .recBrand{
+        position: relative;
+        height: 120px;
+        width: 100%;
+        margin-top: 100px;
+        // background-color: black !important;
+        #logoImg{
+            position: absolute;
+            padding: 20px 60px 20px 60px;
+            box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.07);
+            width: 260px;
+            margin-left: 27%;
+            margin-top: -80px;
+        }
+    }
+
+    .aboutPort{
+        padding-left: 10px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        .mainPort {
+            .portDes{
+                position: relative;
+                #imgM, #imgD {
+                    display: none;
+                }
+                #imgT {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    position: absolute;
+                    width: 327px;
+                    margin-top: 140px;
+                    margin-left: 360px;
+                
+                }
+               
+
+            //     #rec{
+            //         position: absolute;
+
+            //     #gborder{
+            //         background-color: $w-box-color;
+            //         width: 268px;
+            //         height: 591px;
+            //         margin-top: 20px;
+                   
+            //     }
+            // }
+
+        
+                .mSubtitle {
+                    font-family: $p-font;
+                    font-size: 16px;
+                    color: $dmaroon;
+                    width: 300px;
+                    line-height: 22px;
+                    margin-left: 5px;
+                    text-align: left;
+                }
+                h1{
+                    margin-bottom: 30px;
+                    font-family: $main-font;
+                    margin-top: -20px;
+                    font-size: 28px;
+                    text-align: left;
+                    line-height: 32px;
+                    letter-spacing: 1px;
+                    color: $purple;
+                    width:376px;
+                }
+            
+            
+                p {
+                    font-family: $p-font;
+                    font-size: 16px;
+                    line-height: 27px;
+                    color: $grey;
+                    margin-bottom: 15px;
+                    margin-top:10px;
+                    text-align: left;
+                    width: 330px;
+
+                }
+            }
+            .smolD-wrapper{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 80%;
+                .smolDes2{
+                    width: 50%;
+                    .phead3{
+                    font-family: $main-font;
+                    font-size: 15px;
+                    color: $purple;
+                    line-height: 24px;
+                    margin-top: 20px;
+                    font-weight: 400;
+                    font-style: normal;
+                    }
+                    
+                    .pInclude{
+                    font-family: $p-font;
+                    font-size: 15px;
+                    color: $grey;
+                    line-height: 24px;
+                    margin-bottom: 15px;
+                    }
+    
+                    .pInclude2{
+                        font-family: $p-font;
+                        font-size: 15px;
+                        color: $grey;
+                        line-height: 24px;
+                        margin-bottom: 15px;
+                    }
+                }
+        
+            }
+        } 
+    
+    }
+
+    #brandImg {
+        #img1{
+            width: 200px;
+            margin-top: 60px;
+            margin-left: 20px;
+           
+        }
+    
+        #img2
+        {
+            display: none;
+        }
+    
+        #imgP2
+        {
+            margin-top: 40px;
+        }
+    } 
+    
+
+}
+
+@media screen and (min-width: 790px){
+    .aboutPort{
+        padding-left: 10px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        .mainPort {
+            .portDes{
+                position: relative;
+                #imgM, #imgT {
+                    display: none;
+                }
+                #imgD {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    position: absolute;
+                    width: 375px;
+                    margin-top: 140px;
+                    margin-left: 420px;
+                
+                }
+            }
         }
     }
 }
@@ -352,7 +743,7 @@
         #logoImg{
             position: absolute;
             padding: 20px 60px 20px 60px;
-            box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.16);
+            box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.07);
             width: 180px;
             margin-left: 30%;
             margin-top: -40px;
@@ -370,15 +761,40 @@
         #logoImg{
             position: absolute;
             padding: 20px 60px 20px 60px;
-            box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.16);
-            width: 180px;
+            box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.07);
+            width: 210px;
             margin-left: 35%;
             margin-top: -40px;
         }
     }
+
+    .aboutPort{
+        padding-left: 10px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        .mainPort {
+            .portDes{
+                position: relative;
+                #imgM, #imgT {
+                    display: none;
+                }
+                #imgD {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    position: absolute;
+                    width: 420px;
+                    margin-top: 140px;
+                    margin-left: 450px;
+                
+                }
+            }
+        }
+    }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1200px){
     .recBrand{
         position: relative;
         height: 120px;
@@ -388,10 +804,35 @@
         #logoImg{
             position: absolute;
             padding: 20px 60px 20px 60px;
-            box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.16);
+            box-shadow: -1px 3px 26px 2px rgba(0,0,0,0.07);
             width: 180px;
             margin-left: 38%;
             margin-top: -40px;
+        }
+    }
+
+    .aboutPort{
+        padding-left: 10px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        .mainPort {
+            .portDes{
+                position: relative;
+                #imgM, #imgT {
+                    display: none;
+                }
+                #imgD {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    position: absolute;
+                    width: 550px;
+                    margin-top: 140px;
+                    margin-left: 450px;
+                
+                }
+            }
         }
     }
 }
