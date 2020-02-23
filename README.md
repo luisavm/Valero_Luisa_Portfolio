@@ -6,8 +6,6 @@
 ## Intuitively visual. Eye for design.
 Hello the world! A designer and living in Canada. Intuitively visual. turning doodles into pixels. Strong interests in UI design, print design and branding. 
 
-View my live [site](http://luisavalero.herokuapp.com/)
-
 
 ## Built with  
 * **HTML5**
