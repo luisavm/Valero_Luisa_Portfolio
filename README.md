@@ -30,6 +30,3 @@ Luisa Valero - https://github.com/luisavm
 - Add CSS animations
 - Add CSS transitions
 - Add more works 
-
-## Developer and Designer
-Luisa Valero - https://github.com/luisavm
